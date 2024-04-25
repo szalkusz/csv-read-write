@@ -1,5 +1,5 @@
 # csv-read-write
-Easy-to-use CSV read-write Node.js module
+Easy-to-use CSV read-write module
 
 The aim was to create the most easy-to-use CSV reader and writer possible.
 
