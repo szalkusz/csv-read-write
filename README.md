@@ -1,4 +1,4 @@
-# csv-rw
+# csv-read-write
 Easy-to-use CSV read-write Node.js module
 
 The aim was to create the most easy-to-use CSV reader and writer possible.
@@ -16,15 +16,15 @@ Read and write functions use standard header, which is the first line of the CSV
 Using npm:
 
 ```bash
-npm install csv-rw
+npm install csv-read-write
 ```
 
 ## Usage
 
-### Import csv-rw
+### Import csv-read-write
 
 ```js
-const csv = require('csv-rw')
+const csv = require('csv-read-write')
 ```
 
 ### Write objects to CSV
