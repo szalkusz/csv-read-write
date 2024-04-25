@@ -3,15 +3,21 @@ Easy-to-use CSV read-write Node.js module
 
 The aim was to create the most easy-to-use CSV reader and writer possible.
 
-## Functions
+## Basic functions
 
-- `async read(filePath, delimiter = ',', callback = null)`, reads a CSV file and returns an array of objects with properties of the relevant row. Throws an error if error occured except if callback argument is defined: callback(data, error): if succeed error is null, if failed data is null.
+- **Read CSV from file to array of objects:** `async read(filePath, delimiter = ',', callback = null)`, reads a CSV file and returns an array of objects with properties of the relevant row. Throws an error if error occured except if callback argument is defined: callback(data, error): if succeed error is null, if failed data is null.
 
-- `async write(filePath, data, delimiter = ',', callback = null)`, writes an array of objects to a CSV file and returns null if succeed, throws an error if failed except when callback is defined: then the return value goes into callback's argument: null if succeed, error if error occured; it overrides the file if it is already exists at filePath.
+- **Write array of objects to CSV file:** `async write(filePath, data, delimiter = ',', callback = null)`, writes an array of objects to a CSV file and returns null if succeed, throws an error if failed except when callback is defined: then the return value goes into callback's argument: null if succeed, error if error occured; it overrides the file if it is already exists at filePath.
+
+Read and write functions use standard header, which is the first line of the CSV file.
 
 ## Install
 
-> **npm i csv-rw**
+Using npm:
+
+```bash
+npm install csv-rw
+```
 
 ## Usage
 
