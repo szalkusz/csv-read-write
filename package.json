@@ -1,0 +1,30 @@
+{
+  "name": "csv-rw",
+  "version": "1.0.0",
+  "description": "Easy to use CSV read-write module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szalkusz/csv-rw.git"
+  },
+  "keywords": [
+    "csv",
+    "easy",
+    "read",
+    "write",
+    "object"
+  ],
+  "author": "szalkusz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szalkusz/csv-rw/issues"
+  },
+  "homepage": "https://github.com/szalkusz/csv-rw#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0"
+  }
+}
